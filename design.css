@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    margin: 0 auto;
+}
+
+main {
+    
+    background-color: rgb(250, 227, 227);
+   
+}
+
+header {
+    background-color: rgb(17, 19, 17) ;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+/* #inicio {
+    text-decoration: none;
+} */
+
+header h1 {
+    font-size: 2.0em;
+    font-weight: 200;
+    cursor: pointer;
+    /* text-decoration: none; */
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+header ul li {
+    display: flex;
+    display: inline;
+    align-items: flex-start;
+    margin-right: 25px;
+    
+}
+
+header nav a {
+    margin-right: 1.1em;
+    font-size: 0.4em;
+    text-decoration: none;
+    color: rgb(253, 252, 252);
+    
+}
+
+header h1, a {
+    color: rgb(237, 239, 247);
+    transition: 0.2s ease-in-out;
+}
+
+header h1:hover, a:hover {
+    color: blueviolet;
+}
+
+
+
+.textofoto {
+    display: flex;
+    background-color: rgb(250, 227, 227);
+    
+}
+
+.section_title {
+    color: blue;
+    text-align: center;
+}
+
+
+
+
+.wrapperContainer {
+    padding-top: 1px;
+    
+}
+
+/* 
+.container {
+    max-width: 127.6rem;
+    margin: auto;
+    
+} */
+
+.cursosContainer {
+    display: flex;
+    text-align: left;
+    gap: 1rem;   
+    
+}
+
+.curso_card {
+    flex: 1;
+    margin-bottom: 600px;  
+    background-color: white;
+    border-radius: 15px;
+}
+
+.curso_card img {
+    /* display: block; */
+    
+    width: 450px;
+    height: 250px;
+}
+
+.curso_card h3 {
+    font-size: 1.4rem;
+    color: blue;
+}
+
+.curso_card p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.cursos_card_content {
+    padding: 1rem 1.30rem;
+    border: 1px solid #ccc;
+    border-radius: 0 0 8px 8px;
+    border-top: transparent;
+}
+
+
+.textoimagem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textofoto .textoimagem p {
+    width: 75%;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 13px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.textop {
+    text-align: center;
+} 
+
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+figure img {
+    width: 500px;
+    height: 450px;
+    
+
+    margin-bottom: 6%;
+    border: 1px blue solid;
+    transition: 0.2s ease-in-out;
+}
+
+figure img:hover {
+    box-shadow:  5px 5px 6px blue;
+    cursor: pointer;
+}
+
+.decor1 {
+    margin-top: 10px;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 250px; */
+
+    width: 60em;
+    height: 32em;
+    margin-left: 20px;
+    margin-top: 250px;
+    margin-right: 40px;
+    background-color: gainsboro;
+}
+
+#texto1 {
+    color: rgb(47, 0, 255);
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+#contato {
+    color: blue;
+    display:flex;
+    margin-left: 130px;
+    
+}
+
+#titulo2 {
+    color: rgb(47, 0, 255);
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+#textoparagrafo {
+    text-align: center;
+    text-align: justify;
+    margin: auto;
+}
+
+
+/* .frentecasa {
+    width: 250px;
+} */
+
+.textoimagem {
+    /* background-color: rgb(229, 236, 207); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+   
+}
+
+#titulo {
+    font-family: sans-serif;
+    /* color:blue */
+    margin-left: 0%;
+}
+
+fieldset {
+    border-radius: 10px;
+
+}
+
+/* body {
+    background-color:rgb(173, 15, 15);
+    
+} */
+
+input, textarea, button {
+    border-radius: 5px;
+}
+
+.grupo {
+    border: 30px;
+   
+}
+
+.rodape{
+    height: 8px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.redesocial {
+    display: flex;
+    
+    
+}
+
+/* .campo {
+    width: 150px;
+    height: 100px;
+
+} */
+
+/* .campo label {
+    margin-bottom: 0.2em;
+    color: rgb(14, 15, 15);
+    display: block;
+} */
+
+fieldset #cadastroForm .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+#carouselExample {
+    margin: 0 auto;
+    width: 30%;  
+}
+
+.carousel-inner img{
+    width: 450px;
+    height: 450px;     
+}
+
+
+.botao {
+    font-size: 1.2em;
+    background: rgb(6, 6, 134);
+    border: 0;
+    margin-bottom: 1em;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px rgb(255, 30, 0);
+
+}
+
+.decor {
+    
+    width: 20em;
+    height: 6em;
+     
+}
+
+footer {
+    background-color:rgb(19, 20, 19);
+    padding: 10px;
+    color: white;
+    
+    font-size: 0.8em;
+      
+}
+
+footer a {
+    padding: 10px;
+    justify-content: space-between;
+}
+
+footer .rodape{
+    height: 8px;
+    padding: 40px;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+footer .redesocial {
+    display: flex;
+    margin-left: 0;
+    align-items: center;
+    margin-top: 20px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    margin-right: 1.3em;
+    font-size: 1.5em;
+}
+
+header a {
+    color: rgb(240, 241, 245);
+    transition: 0.2s ease-in-out;
+}
+
+header a:hover {
+    color: red;
+}
+
+.carroselcor {
+  
+    padding-top: 10px;
+    margin-top: 0px;
+    
+}
+
+
+
+@media screen and (max-width: 1200px){
+    header {
+        flex-direction: column;
+        
+        justify-content: center;
+
+        text-align: center;
+    }
+
+    header h1 {
+      font-size: 2em;  
+    }
+
+    header nav {
+        margin-top: 24px;
+    }
+
+    header nav a {
+        font-size: 1em;
+    }
+
+    .textofoto .textop #texto1 {
+        font-size: 1.4em;
+    }
+
+    .textofoto .textop #textoparagrafo {
+        font-size: 1.2em;
+    }
+
+    .textofoto .frente img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .textofoto {
+        display: flex;
+        flex-wrap: wrap;
+       }
+
+    .carroselcor #titulo2 {
+        font-size: 1.8em;
+    }
+
+    .carroselcor .carousel-item img {
+        width: 250px;
+        height: 250px;
+       
+    }
+
+    .rodape {
+        margin-top: 24px;
+        
+        
+    }
+
+    
+
+    /* .cursosContainer {
+        flex-direction: column;
+       
+        
+    } */
+
+    }
+
+    @media screen and (max-width: 700px) {
+        .cursosContainer {
+            flex-direction: column;
+           
+           
+    }
+    
+    }   
+    
+
+   
+    
+   
